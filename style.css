@@ -43,6 +43,13 @@ h2 {
 .hero img {
   width: 260px;
   border: 1px solid #000;
+  animation: pulse 3s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%   { transform: scale(1); }
+  50%  { transform: scale(1.04); }
+  100% { transform: scale(1); }
 }
 
 .hero-text {
